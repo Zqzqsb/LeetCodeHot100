@@ -14,10 +14,10 @@ public:
 		unordered_map<int , int> mp;
 		
 		for(int i = 0 ; i < nums.size() ; i ++) {
-			if(mp.find(target - nums[i]) != mp.end()) {
+			if(mp.contains(target - nums[i])) {
 				return {i , mp[target - nums[i]]};
 			}
-			mp[nums[i]] = i;
+			if(!mp.contains(nums[i])) mp[nums[i]] = i;
 		}
 		return {-1 , -1};
     }
