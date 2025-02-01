@@ -38,7 +38,7 @@ code:
     # C++ compiler
     cxx: g++
     # C++ compiler flags (our Leetcode I/O library implementation requires C++17).
-    cxxflags: -O2 -std=c++17
+    cxxflags: -O2 -std=c++20
   rust:
     # Base directory to put generated questions, defaults to the language slug, e.g. go, python, cpp.
     out_dir: rust
