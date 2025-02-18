@@ -60,10 +60,10 @@ int main() {
 	LeetCodeIO::scan(cin, nums);
 
 	Solution *obj = new Solution();
-	auto res =obj->moveZeroes(nums);
-	LeetCodeIO::print(out_stream, res);
-	cout << "\noutput: " << out_stream.rdbuf() << endl;
+	// auto res =obj->moveZeroes(nums);
+	// LeetCodeIO::print(out_stream, res);
+	// cout << "\noutput: " << out_stream.rdbuf() << endl;
 
-	delete obj;
+	// delete obj;
 	return 0;
 }
