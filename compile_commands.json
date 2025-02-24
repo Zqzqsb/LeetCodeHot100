@@ -1,0 +1,20 @@
+[
+  {
+    "directory": "/home/zq/Projects/Algorithm/LeetCodeHot100",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-m64",
+      "-fvisibility=hidden",
+      "-fvisibility-inlines-hidden",
+      "-O3",
+      "-std=c++2a",
+      "-Icpp",
+      "-DNDEBUG",
+      "-o",
+      "build/.objs/two-sum/linux/x86_64/release/cpp/0001.two-sum/solution.cpp.o",
+      "cpp/0001.two-sum/solution.cpp"
+    ],
+    "file": "cpp/0001.two-sum/solution.cpp"
+  }
+]
