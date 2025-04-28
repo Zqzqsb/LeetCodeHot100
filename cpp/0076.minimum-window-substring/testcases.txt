@@ -1,0 +1,17 @@
+input:
+"ADOBECODEBANC"
+"ABC"
+output:
+"BANC"
+
+input:
+"a"
+"a"
+output:
+"a"
+
+input:
+"a"
+"aa"
+output:
+""
